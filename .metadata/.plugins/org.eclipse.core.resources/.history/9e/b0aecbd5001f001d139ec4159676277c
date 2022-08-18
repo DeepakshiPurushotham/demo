@@ -1,0 +1,29 @@
+package com.srs.srs_demo;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class mysql_demo {
+	public static void main(String args[])
+	{
+		String url="jdbc:mysql://localhost:3306/mysql_demo";
+		String user="root";
+		String password="Deepuram@210178";
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection connection=DriverManager.getConnection(url,user,password);
+			System.out.println("Connection is Successful to the db"+url);
+			String query="Insert into employees_details(ID,Name) values(101,'ram')";
+			 Statement statement = connection.createStatement();
+			statement.executeQuery(query);
+			
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException throwables) {
+			throwables.printStackTrace();
+		}
+	}
+
+}
