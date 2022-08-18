@@ -1658,3 +1658,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references non-
 2022-08-18 21:23:22,588 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SRS\eclipse_workspace\srs-demo\src\test\resources
 2022-08-18 21:25:45,594 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-18 21:25:45,595 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SRS\eclipse_workspace\srs-demo\src\main\resources
+2022-08-18 21:25:45,601 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-18 21:25:45,602 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SRS\eclipse_workspace\srs-demo\src\test\resources
